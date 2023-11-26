@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Ikigraf</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Linea de comentario -->
+    <!-- Heder es el banner principal -->
+    <header>
+        <!-- Logo es una imagen -->
+        <img src="../img/logo-ikigraf-02-blanco.svg" alt="Logo Ikigraf">
+        <!-- Menu de navegacion -->
+        <nav>
+            <!-- Lista Desordenada con links -->
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="nuestros-trabajos.html">Nuestros Trabajos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Etiqueta para el contenido principal -->
+    <main>
+        <h1>
+            Ikigraf Contacto
+        </h1>
+        <h2>
+            30 años de experiencia en la industria gráfica
+        </h2>
+        <!-- Formulario -->
+        <form action="form.php" method="POST">
+            <!-- Input Nombre y Apellido-->
+            <label for="">Nombre y Apellido:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Juan Perez">
+            <!-- Input email-->
+            <label for="">Email:</label>
+            <input type="email" name="email" id="email" placeholder="juan@perez.com.ar">
+            <!-- Input telefono-->
+            <label for="">Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="1234-5678">
+            <!-- Input Comentarios-->
+            <p>Comentarios:</p>
+            <textarea name="comentarios" id="" cols="40" rows="10"></textarea>
+            <!--Submit-->
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <!-- Etiqueta para Pie de pagina-->
+    <footer>
+        <ul>
+            <li>Teléfono: 11 5263-0981</li>
+            <li>Mail: ikigraf@ikigraf.com.ar</li>
+            <li>Valparaiso 4040 - Tortuguitas - Prov. Buenos Aires</li>
+        </ul>
+    </footer>   
+</body>
+</html>
