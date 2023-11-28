@@ -28,6 +28,10 @@ footer ul{
 }
 
 /* Diseño el cuerpo de la web */
+.carousel-tamano {
+    width: 60%;
+    margin: auto; 
+}
 
 h1{
     font-family: 'Poppins', sans-serif;
