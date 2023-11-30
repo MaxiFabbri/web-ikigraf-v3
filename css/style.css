@@ -7,8 +7,42 @@
     box-sizing: border-box;
 }
 
-/* Diseno del header y Nav Bar con Flexbox */
+/* Diseño el cuerpo de la web */
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
 
+.carousel-tamano {
+    width: 60%;
+    margin: auto; 
+}
+
+/* diseno de la galeria de fotos*/
+.galeria-fotos{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+.ficha-producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+.ficha-producto-foto{
+    max-width: 100%;
+}
 
 /* diseño del footer */
 footer{
@@ -26,24 +60,3 @@ footer ul{
     list-style-type: none; 
     gap: 50px;
 }
-
-/* Diseño el cuerpo de la web */
-.carousel-tamano {
-    width: 60%;
-    margin: auto; 
-}
-
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    text-align: center;
-}
-h2{
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-}
-
-
-
