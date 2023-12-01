@@ -31,6 +31,11 @@ main p{
     margin: auto; 
 }
 
+/* Diseño Mapa pag Nosotros */
+.nosotros-mapa {
+    margin: 8px;
+}
+
 /* diseno de la galeria de fotos*/
 .section-galeria-grid {
     margin: 10px 2%;
@@ -39,7 +44,6 @@ main p{
     grid-template-rows: repeat(3, 0,36vw) ;
     gap: 10px;
 }
-
 .ficha-producto-foto{
     width: 100%;
     height: 100%;
@@ -48,14 +52,12 @@ main p{
 
 
 /* diseño del footer */
-
 footer{
     padding: 1%;
     display: flex;
     justify-content: center;
     font-size: 15px;
 }
-
 footer ul{
     display: flex;
     justify-content: center;
