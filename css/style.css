@@ -11,12 +11,12 @@
 /* Diseño el cuerpo de la web */
 h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
     text-align: center;
 }
 h2{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 300;
     text-align: center;
 }
@@ -36,7 +36,7 @@ main p{
     margin: 10px 2%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 500px) ;
+    grid-template-rows: repeat(3, 0,36vw) ;
     gap: 10px;
 }
 
@@ -72,7 +72,7 @@ footer ul li{
         margin: 10px 10%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(6, 350px) ;
+        grid-template-rows: repeat(6, 0,69vw) ;
         gap: 10px;
     }
 
