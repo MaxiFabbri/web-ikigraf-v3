@@ -1,0 +1,29 @@
+@import "../utilities/variables";
+
+//Diseño Mapa pag Nosotros desk
+.nosotros-mapa {
+    margin: $margen-mapa-desk;
+}
+// texto Largo en Desktop
+.texto-nosotros-corto {
+    display: none;
+}
+// ajustes para Tablet
+@media screen and (max-width: $medi-tablet) {
+    .nosotros-mapa{
+        margin: $margen-mapa-tablet;
+    }
+    // texto corto para Tablets y Movile
+    .texto-nosotros-corto {
+        display: inline;
+    }
+    .texto-nosotros-largo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $medi-celu) {
+    .nosotros-mapa{
+        margin: $margen-mapa-celu;
+    }
+}

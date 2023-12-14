@@ -1,0 +1,88 @@
+@import "layout/contacto";
+@import "layout/index";
+@import "layout/nosotros";
+@import "layout/nuestros-trabajos";
+@import "layout/servicios";
+@import "utilities/variables";
+@import "utilities/mixin";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+//Pseudoclases generales
+a:visited {
+    color: $color-visited;
+}
+a:hover {
+    font-weight: bold;
+}
+// Titulos y Parrafos generales Desktop
+h1{
+    @include textos ($h1-font-size-desk, $h1-font-weight, center);
+}
+h2{
+    @include textos ($h2-font-size-desk, $h2-font-weight, center);
+    margin-bottom: 30px;
+}
+main p{
+    margin: 2rem 10%;
+    @include textos ($p-font-size-desk, $p-font-weight, justify);
+}
+//Diseño del footer para Desktop
+footer{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5vw;
+    
+        li{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: $medi-tablet) {
+    // Diseno footer Tablet
+    footer {
+        font-size: 15px;
+    }
+    footer ul {
+        flex-direction: column;
+        gap: 4px;
+    }
+}
+
+@media screen and (max-width: $medi-celu) {
+    // diseno textos movile
+    h1{
+        @include textos ($h1-font-size-celu, $h1-font-weight, center);
+    }
+    h2{
+        @include textos ($h2-font-size-celu, $h2-font-weight, center);
+        margin-bottom: 15px;
+    }
+    main p{
+        margin: 2rem 10%;
+        @include textos ($p-font-size-celu, $p-font-weight, justify);
+    }
+    // Diseno footer Movile
+    footer {
+        font-size: 12px;
+    }
+    footer ul {
+        flex-direction: column;
+        gap: 2px;
+    }
+}
+
