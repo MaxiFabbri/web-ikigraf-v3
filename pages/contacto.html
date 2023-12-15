@@ -49,6 +49,7 @@
         </h2>
         <!-- Formulario -->
         <form action="form.php" method="POST">
+          <div class="cuerpo-formulario">
             <!-- Input Nombre y Apellido-->
             <label for="">Nombre y Apellido:</label>
             <input type="text" name="nombre" id="nombre" placeholder="Juan Perez">
@@ -60,9 +61,12 @@
             <input type="tel" name="telefono" id="telefono" placeholder="1234-5678">
             <!-- Input Comentarios-->
             <p>Comentarios:</p>
-            <textarea name="comentarios" id="" cols="40" rows="10"></textarea>
+            <textarea name="comentarios" id="" cols="40" rows="5"></textarea>
+          </div>
+           <div  class="boton-enviar">
             <!--Submit-->
             <input type="submit" value="Enviar">
+           </div>   
         </form>
     </main>
 
