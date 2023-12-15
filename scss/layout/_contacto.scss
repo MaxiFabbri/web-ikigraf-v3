@@ -4,11 +4,14 @@ form {
 }
 .cuerpo-formulario {
     display: grid;
-    grid-template-columns: 160px 1fr;
+    grid-template-columns: 190px 1fr;
     gap: 20px 5px;
+    label {
+        font-size: $p-font-size-desk;
+    } 
     p {
         margin: 0px;
-        font-size: 1rem;
+        font-size: $p-font-size-desk;
     }
 }
 .boton-enviar {
@@ -34,6 +37,12 @@ form {
     }
     .cuerpo-formulario{
         grid-template-columns: 1fr;
-        gap: 5px;        
+        gap: 5px;
+        label {
+            font-size: $p-font-size-celu;
+        } 
+        p {
+            font-size: $p-font-size-celu;
+        }      
     }
 }

@@ -4,11 +4,13 @@ form {
 
 .cuerpo-formulario {
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 190px 1fr;
   gap: 20px 5px; }
+  .cuerpo-formulario label {
+    font-size: 18px; }
   .cuerpo-formulario p {
     margin: 0px;
-    font-size: 1rem; }
+    font-size: 18px; }
 
 .boton-enviar {
   margin-top: 10px;
@@ -29,7 +31,11 @@ form {
     margin: 5px 10px; }
   .cuerpo-formulario {
     grid-template-columns: 1fr;
-    gap: 5px; } }
+    gap: 5px; }
+    .cuerpo-formulario label {
+      font-size: 16px; }
+    .cuerpo-formulario p {
+      font-size: 16px; } }
 
 .carousel-tamano {
   width: 60%;
