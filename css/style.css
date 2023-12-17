@@ -101,6 +101,38 @@ form {
     grid-template-rows: repeat(6, 0, 69vw);
     gap: 10px; } }
 
+main h4 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center; }
+
+.ficha-servicios {
+  width: 80vw;
+  margin: auto; }
+  .ficha-servicios img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down; }
+
+.servicios-fichas-p {
+  margin: 10px 0px 40px 0px; }
+
+@media screen and (max-width: 991px) {
+  .ficha-servicios {
+    width: 90vw; }
+  .servicios-fichas-p {
+    margin: 5px 0px 25px 0px; } }
+
+@media screen and (max-width: 600px) {
+  main h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center; }
+  .ficha-servicios {
+    width: 95vw; }
+  .servicios-fichas-p {
+    margin: 5px 0px 20px 0px; } }
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
