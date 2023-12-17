@@ -1,0 +1,41 @@
+@import "../utilities/variables";
+// diseno ficha de foto 
+.ficha-producto-foto{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+// Pseudoclases
+.ficha-producto-foto:hover {
+    outline: 5px solid #ff7676;
+    outline-style: outset;
+}
+
+//Diseno de la galeria de fotos para Desktop
+.section-galeria-grid {
+    margin: 10px 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 0,36vw) ;
+    gap: 10px;
+}
+//Galeria de fotos con Grid para tablet
+@media screen and (max-width: $medi-tablet) {
+    .section-galeria-grid {
+        margin: 10px 10%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 0,69vw) ;
+        gap: 10px;
+    }
+}
+//Galeria de fotos con Grid para movile
+@media screen and (max-width: $medi-celu) {
+    .section-galeria-grid {
+        margin: 10px 10%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 0,69vw) ;
+        gap: 10px;
+    }
+}

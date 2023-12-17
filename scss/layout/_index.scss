@@ -1,0 +1,23 @@
+@import "utilities/variables";
+// Carousel para Desktop
+.carousel-tamano {
+    width: $carousel-width-desk;
+    margin: auto; 
+}
+
+@media screen and (max-width: $medi-celu) {
+    //Carousel para movile
+    .carousel-tamano {
+        width: $carousel-width-celu;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: $medi-tablet) {
+    //Carousel para tablet
+    .carousel-tamano {
+        width: $carousel-width-tablet;
+        margin: auto;
+    }
+}
+
