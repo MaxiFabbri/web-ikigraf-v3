@@ -38,7 +38,7 @@ form {
       font-size: 16px; } }
 
 .carousel-tamano {
-  width: 60%;
+  width: 50%;
   margin: auto; }
 
 @media screen and (max-width: 600px) {
@@ -48,7 +48,7 @@ form {
 
 @media screen and (max-width: 991px) {
   .carousel-tamano {
-    width: 90%;
+    width: 70%;
     margin: auto; } }
 
 .nosotros-mapa {
